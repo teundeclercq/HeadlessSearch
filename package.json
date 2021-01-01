@@ -1,0 +1,28 @@
+{
+  "name": "headlesssearch",
+  "version": "0.0.1",
+  "description": "headlesssearch with puppeteer, express and google.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teundeclercq/HeadlessSearch.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/teundeclercq/HeadlessSearch/issues"
+  },
+  "homepage": "https://github.com/teundeclercq/HeadlessSearch#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "puppeteer": "^5.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
